@@ -1,0 +1,9 @@
+.p{
+    color: blue;
+    display: flex;
+
+}
+.market{
+    position: relative;
+    left: 60%;
+}

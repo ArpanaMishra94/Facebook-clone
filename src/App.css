@@ -1,0 +1,13 @@
+.app {
+    background-color: #f1f2f5;
+    /* background-color: #000000; */
+    height: 100%;
+    width: 99%;
+    position:relative;
+}
+.app__body{
+    display: flex;
+}
+.app-root{
+    height: 50%;
+}

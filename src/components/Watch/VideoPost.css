@@ -1,0 +1,32 @@
+.videoPost{
+    width: 100%;
+    margin-top: 15px;
+    /* border-radius: 15px; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px black;
+}
+.videoPost__top {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+}
+.videoPost__avatar {
+    margin-right: 10px;
+}
+.videoPost__topInfo > h3 {
+    font-size: medium;
+}
+.videoPost__topInfo > p {
+    font-size: small;
+    color: gray;
+}
+.videoPost__bottom {
+    margin-top: -10px;
+    /* margin-bottom: 10px; */
+    padding: 15px 25px;
+}
+
+

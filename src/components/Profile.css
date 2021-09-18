@@ -1,0 +1,151 @@
+.profile{
+     background-color: #f2f2f2;
+}
+.profile__top{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    border-bottom: 1px solid lightgray;
+}
+.profile__cover{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.profileCoverImg{
+    width: 53%;
+    height: 373px;
+    object-fit: cover;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.profileUserImg{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    bottom: 82%;
+    border: 5px solid white;
+}
+.profileUserImg:hover{
+    cursor: pointer;
+    
+}
+.editPicButton{
+    display: flex;
+    align-items: center;
+    padding: 7px 8px;
+    background-color: white;
+    position: absolute;
+    left: 1212px;
+    bottom: 2314px;
+    border: none;
+    border-radius: 6px;
+}
+.editPicButton > p{
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.editPicButton:hover{
+    cursor: pointer;
+    background-color: rgb(235, 231, 231);;
+}
+.name-bio{
+    display: flex;
+    flex-direction: column;
+    margin: 41px auto;
+}
+.name-bio > h4 {
+    display: flex;
+    justify-content: center;
+    color: #2e81f4;
+}
+.name-bio > h4:hover{
+    cursor: pointer;
+    /* border-bottom:1px solid #2e81f4; */
+}
+
+
+.profile__desc{
+    display: flex;
+    font-size: larger;
+    color: #65676b;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+    border-top: 1px solid lightgray;
+}
+
+.profile__items{
+    padding: 20px 26px;
+    display: flex;
+}
+.profile_item_list{
+    display: flex;
+    flex-direction: row;
+    margin: 0 46px;
+}
+.profile_button_list{
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+}
+.profile__items:hover {
+    background-color: rgb(212, 209, 209);
+    border-radius: 6px;
+   
+}
+.Desc__moto { 
+    cursor:pointer;
+}
+#moto__story{
+    display: flex;
+    align-items: center;
+    background-color: #2e81f4;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+   
+}
+#moto__story:hover{
+    background-color: blue;
+}
+#moto__edit{
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    background-color: #f1f2f5;
+    left: 882px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: medium;
+    margin: 0px 7px;
+}
+#moto__edit:hover{
+    background-color:  rgb(212, 209, 209);;
+}
+#moto__horizon{
+    display: flex;
+    align-items: center;
+    padding: 9px 17px;
+    background-color: #f1f2f5;
+    border: none;
+    border-radius: 6px;
+}
+#moto__horizon:hover{
+    background-color: rgb(212, 209, 209);
+}
+#profile__post{
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.watch{
+    position: relative;
+    top: 2%;
+    left: 44%;
+}
+.video{
+    border-radius: 15px;
+}
+
+  
+.videoPost__options{
+    display: flex;
+    color: gray;
+    cursor: pointer;
+    font-size: medium;
+    justify-content: space-evenly;
+    /* border-top: 1px solid lightgray; */
+    /* padding-top: 10px; */
+    padding: 2px;
+    border-bottom-left-radius: 15px;
+    width: 100%;
+    margin-top: 2px;
+    border-bottom-right-radius: 15px;
+    
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px black;
+}
+
+.videoPost__option{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 5px;
+    /* flex: 1; */
+}
+.videoPost__option > p {
+    margin-left: 10px;
+}
+.videoPost__option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
