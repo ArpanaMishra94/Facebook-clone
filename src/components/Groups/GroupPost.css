@@ -1,34 +1,9 @@
 .groupPost{
-    width: 100%;
-    margin-top: 15px;
+    width: 30%;
+    /* margin-top: 15px; */
     border-radius: 15px;
-    margin-left: 343px;
+    /* margin-left: 343px; */
     background-color: white;
-    box-shadow: 0px 5px 7px -7px black;
-   
-}
-.groupPost__top {
-    /* display: flex; */
-    padding: 15px;
-    align-items: center;
-    position: relative;
-}
-
-.groupPost__avatar {
-    margin-right: 10px;
-}
-.groupPost__topInfo > h2 {
-    font-size: 17px;
- }
-.groupPost__topInfo > h3 {
-    font-size: 14px;
-}
-.groupPost__topInfo > p {
-    font-size: small;
-    color: gray;
-}
-.groupPost__bottom {
-    margin-top: -10px;
-    /* margin-bottom: 10px; */
-    /* padding: 15px 25px; */
+    /* box-shadow: 0px 5px 7px -7px black; */
+    border: 1px solid red;
 }

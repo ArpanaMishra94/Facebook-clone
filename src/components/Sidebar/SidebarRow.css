@@ -8,9 +8,10 @@
     background-color: lightgray ;
     border-radius: 10px;
 }
-.sidebarRow > h4 {
+.sidebarRow > p {
     margin-left: 20px;
-    /* font-weight: 600px; */
+    font-size: 15px;
+
 }
 .sidebarRow > .MuiSvgIcon-root {
 font-size: xx-large;

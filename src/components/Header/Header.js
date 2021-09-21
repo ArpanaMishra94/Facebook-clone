@@ -128,8 +128,8 @@ export default function Header({ setFeedVisible, setWatchVisible, setMarketVisib
 
       <div className="header__right">
         <div className="header__info">
-          <Avatar />
-          <h4>arpp</h4>
+          <Avatar src = "http://clareville.co.uk/wp-content/uploads/2017/11/woman-on-laptop.jpg"/>
+          <h4>Arpana</h4>
         </div>
         <IconButton>
           <AddIcon />

@@ -6,7 +6,7 @@ import Feed from './components/Feed/Feed';
 import Widgets from './components/Widgets/Widgets';
 import Watch from './components/Watch/Watch';
 import Market from './components/Market/Market';
-import Groups from './components/Groups/Groups';
+import GroupPost from './components/Groups/GroupPost';
 import Profile from './components/Profile';
 function App() {
 
@@ -49,7 +49,7 @@ function App() {
                         marketVisible && <Market/>
                     }
                         {
-                        groupsVisible && <Groups/>
+                        groupsVisible && <GroupPost/>
                     } </div>
                     {
                     widgetVisible && <Widgets/>

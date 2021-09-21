@@ -29,7 +29,7 @@ export default function Sidebar({setFeedVisible, setWatchVisible, setMarketVisib
 }
     return (
         <div  className = "sidebar">
-       <div onClick = {() => setVisibility("profile")}><SidebarRow  src= "https://171rental.com/images/stu.png" title = 'Arpana'/></div> 
+       <div onClick = {() => setVisibility("profile")}><SidebarRow  src= "http://clareville.co.uk/wp-content/uploads/2017/11/woman-on-laptop.jpg" title = 'Arpana Mishra'/></div> 
         <SidebarRow Icon = {LocalHospitalIcon} title = "COVID-19 Information Center"/>
             <SidebarRow Icon = {EmojiFlagsIcon} title = 'Pages'/>
             <SidebarRow Icon = {PeopleIcon} title = 'Friends'/>

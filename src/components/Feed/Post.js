@@ -1,7 +1,5 @@
 import React from 'react';
 import './Post.css';
-
-
 import { Avatar } from '@material-ui/core';
 import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
@@ -15,7 +13,7 @@ export default function Post({ profilePic, image, username, timestamp, message, 
                 <Avatar src={profilePic} className="post__avatar" />
                 <div className="post__topInfo">
                     <h3>{username}</h3>
-                    <p>Timestamp...</p>
+                    <p>{timestamp}</p>
                 </div>
             </div>
             <div className="post__bottom">

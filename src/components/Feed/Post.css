@@ -1,5 +1,5 @@
 .post{
-    width: 100%;
+    width: 52%;
     margin-top: 15px;
     border-radius: 15px;
     background-color: white;
@@ -9,7 +9,7 @@
     display: flex;
     padding: 15px;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 .post__avatar {
     margin-right: 10px;
@@ -28,6 +28,7 @@
 }
 .post__image > img {
     width: 100%;
+    
 }
 /* .post__video > video {
     width: 100%;
