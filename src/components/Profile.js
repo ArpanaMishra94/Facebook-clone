@@ -7,18 +7,19 @@ import EditIcon from '@material-ui/icons/Edit';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {ProfilePostData} from './ProfilePostData';
-import { color, padding } from '@mui/system';
+
 export default function Profile() {
     return (
         <div className="profile">
             <div className="profile__top">
                      <div className="profile__cover">
-                     <div className="profileCoverImg" style = {{backgroundImage: `url(${
+                     <div className="profileCoverImg" 
+                     style = {{backgroundImage: `url(${
                       "https://timelinecovers.pro/facebook-cover/download/pc-code-facebook-cover.jpg"
                   })`}}>
                    <button><PhotoCameraIcon/><p>Edit Cover photo</p></button>
-                  </div>
                   <img className="profileUserImg" src="http://clareville.co.uk/wp-content/uploads/2017/11/woman-on-laptop.jpg" alt=""/>
+                  </div>
                      </div>
                  <div className="profile__nameBio">
                     <h2>Arpana Mishra</h2>

@@ -4,12 +4,14 @@
 .profile__top{
     background-color: white;
     border-bottom: 1px solid lightgray;
+   
  }
 .profile__cover{
     width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
+    
 }
 .profileCoverImg{
     margin: auto;
@@ -17,6 +19,7 @@
     height: 373px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+    position: relative;
 }
 .profileCoverImg > button{
     display: flex;
@@ -25,8 +28,9 @@
     background-color: white;
     border: none;
     border-radius: 6px;
-    margin-left: 85%;
-    margin-top: 25%;
+    position: absolute; 
+    bottom: 15px;
+    right: 16px;
 }
 .profileCoverImg > button > p{
     margin-left: 10px;
@@ -43,21 +47,19 @@
     border-radius: 50%;
     width: 168px;
     height: 168px;
-    margin-left: 43%;
-    margin-top: -12%;
     align-items: center;
     border: 5px solid white;
-    z-index: 1;
+    position: absolute;
+    bottom: -18px;
+    left: 43%;
 }
 .profileUserImg:hover{
     cursor: pointer;
-    
 }
 .profile__nameBio{
     display: flex;
     flex-direction: column;
     margin: 41px auto;
-    
 }
 .profile__nameBio > h2 {
     margin: auto;
@@ -145,7 +147,7 @@
 }
 .profile__bottom{
     display: grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 45% 54%;
     column-gap: 15px;
  }
 .profile__bottomCol1{
